@@ -8,4 +8,7 @@ target 'Rx Swift Sample' do
   # Pods for Rx Swift Sample
     pod 'RxSwift'
     pod 'RxCocoa'
+    pod 'Alamofire'
+    pod 'RxAlamofire'
+    pod 'SwiftyJSON'		
 end
