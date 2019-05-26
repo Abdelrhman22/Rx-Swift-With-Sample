@@ -10,5 +10,7 @@ import UIKit
 
 class MyCollectionViewCell: UICollectionViewCell
 {
-    @IBOutlet weak var nameLabel: UILabel!
+  
+    @IBOutlet weak var rateLabel: UILabel!
+    @IBOutlet weak var currencyLabel: UILabel!
 }

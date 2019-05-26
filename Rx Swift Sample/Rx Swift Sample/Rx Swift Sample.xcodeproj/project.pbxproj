@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1EE2BDCD229A8B27003190E5 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE2BDCC229A8B26003190E5 /* MyCollectionViewCell.swift */; };
+		1EE2BDD0229ABE92003190E5 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE2BDCF229ABE92003190E5 /* Country.swift */; };
 		B4457D77AF61A64E8A53F468 /* Pods_Rx_Swift_Sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6AC1F9A93A580194444763D /* Pods_Rx_Swift_Sample.framework */; };
 		BAA7EEC6229A82C0002B6539 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA7EEC5229A82C0002B6539 /* AppDelegate.swift */; };
 		BAA7EEC8229A82C0002B6539 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA7EEC7229A82C0002B6539 /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		1EE2BDCC229A8B26003190E5 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		1EE2BDCF229ABE92003190E5 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
 		8527C8D12C7B11BBDA8C0FB0 /* Pods-Rx Swift Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rx Swift Sample.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rx Swift Sample/Pods-Rx Swift Sample.release.xcconfig"; sourceTree = "<group>"; };
 		BAA7EEC2229A82C0002B6539 /* Rx Swift Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rx Swift Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAA7EEC5229A82C0002B6539 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +51,7 @@
 			children = (
 				BAA7EEC7229A82C0002B6539 /* ViewController.swift */,
 				1EE2BDCC229A8B26003190E5 /* MyCollectionViewCell.swift */,
+				1EE2BDCF229ABE92003190E5 /* Country.swift */,
 			);
 			path = screens;
 			sourceTree = "<group>";
@@ -225,6 +228,7 @@
 				BAA7EEC8229A82C0002B6539 /* ViewController.swift in Sources */,
 				BAA7EECE229A82C0002B6539 /* Rx_Swift_Sample.xcdatamodeld in Sources */,
 				1EE2BDCD229A8B27003190E5 /* MyCollectionViewCell.swift in Sources */,
+				1EE2BDD0229ABE92003190E5 /* Country.swift in Sources */,
 				BAA7EEC6229A82C0002B6539 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
