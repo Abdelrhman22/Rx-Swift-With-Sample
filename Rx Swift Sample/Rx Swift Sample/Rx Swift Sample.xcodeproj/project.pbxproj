@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E616700229BD40600D5077E /* DebounceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6166FF229BD40600D5077E /* DebounceViewController.swift */; };
+		1E616702229BE45C00D5077E /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E616701229BE45C00D5077E /* SearchViewController.swift */; };
+		1E616709229C12D100D5077E /* Dao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E616708229C12D100D5077E /* Dao.swift */; };
 		1EE2BDCD229A8B27003190E5 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE2BDCC229A8B26003190E5 /* MyCollectionViewCell.swift */; };
-		1EE2BDD0229ABE92003190E5 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE2BDCF229ABE92003190E5 /* Country.swift */; };
 		B4457D77AF61A64E8A53F468 /* Pods_Rx_Swift_Sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6AC1F9A93A580194444763D /* Pods_Rx_Swift_Sample.framework */; };
 		BAA7EEC6229A82C0002B6539 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA7EEC5229A82C0002B6539 /* AppDelegate.swift */; };
 		BAA7EEC8229A82C0002B6539 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA7EEC7229A82C0002B6539 /* ViewController.swift */; };
@@ -19,8 +21,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E6166FF229BD40600D5077E /* DebounceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebounceViewController.swift; sourceTree = "<group>"; };
+		1E616701229BE45C00D5077E /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		1E616708229C12D100D5077E /* Dao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dao.swift; sourceTree = "<group>"; };
 		1EE2BDCC229A8B26003190E5 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
-		1EE2BDCF229ABE92003190E5 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
 		8527C8D12C7B11BBDA8C0FB0 /* Pods-Rx Swift Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rx Swift Sample.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rx Swift Sample/Pods-Rx Swift Sample.release.xcconfig"; sourceTree = "<group>"; };
 		BAA7EEC2229A82C0002B6539 /* Rx Swift Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rx Swift Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAA7EEC5229A82C0002B6539 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -46,12 +50,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1EE2BDCE229A8B33003190E5 /* screens */ = {
+		1E616703229C064A00D5077E /* currency */ = {
 			isa = PBXGroup;
 			children = (
 				BAA7EEC7229A82C0002B6539 /* ViewController.swift */,
 				1EE2BDCC229A8B26003190E5 /* MyCollectionViewCell.swift */,
-				1EE2BDCF229ABE92003190E5 /* Country.swift */,
+				1E616708229C12D100D5077E /* Dao.swift */,
+			);
+			path = currency;
+			sourceTree = "<group>";
+		};
+		1EE2BDCE229A8B33003190E5 /* screens */ = {
+			isa = PBXGroup;
+			children = (
+				1E616703229C064A00D5077E /* currency */,
+				1E6166FF229BD40600D5077E /* DebounceViewController.swift */,
+				1E616701229BE45C00D5077E /* SearchViewController.swift */,
 			);
 			path = screens;
 			sourceTree = "<group>";
@@ -226,10 +240,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				BAA7EEC8229A82C0002B6539 /* ViewController.swift in Sources */,
+				1E616702229BE45C00D5077E /* SearchViewController.swift in Sources */,
 				BAA7EECE229A82C0002B6539 /* Rx_Swift_Sample.xcdatamodeld in Sources */,
 				1EE2BDCD229A8B27003190E5 /* MyCollectionViewCell.swift in Sources */,
-				1EE2BDD0229ABE92003190E5 /* Country.swift in Sources */,
+				1E616700229BD40600D5077E /* DebounceViewController.swift in Sources */,
 				BAA7EEC6229A82C0002B6539 /* AppDelegate.swift in Sources */,
+				1E616709229C12D100D5077E /* Dao.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
