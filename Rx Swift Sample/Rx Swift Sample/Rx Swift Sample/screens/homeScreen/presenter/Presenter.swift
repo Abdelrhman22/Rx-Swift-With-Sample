@@ -30,11 +30,7 @@ class Presenter: presenterProtocol
        networkObj.getData(url: url)
     }
     
-    func setRates(arr: [Rate])
-    {
-        print("Inside Presenter setRates")
-    }
-    
+ 
     func setdict(dic: [String : Double])
     {
         homeVC?.setdict(dic: dic)

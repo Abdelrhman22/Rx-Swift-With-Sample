@@ -29,17 +29,14 @@ class ViewController: UIViewController , UICollectionViewDelegateFlowLayout , vi
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    func setRates(arr: [Rate])
-    {
-        
-    }
     func setdict(dic: [String : Double])
     {
         mydict = dic
-        print("dictionary size in view \(mydict.count)")
+        /*
         for item in mydict{
             print("\(item.key)   \(item.value)")
         }
+         */
         let items = Observable.of(mydict)
         items.asObservable()
             .bind(to: self.mainCollectionView.rx.items(cellIdentifier: "textCell", cellType: MyCollectionViewCell.self))

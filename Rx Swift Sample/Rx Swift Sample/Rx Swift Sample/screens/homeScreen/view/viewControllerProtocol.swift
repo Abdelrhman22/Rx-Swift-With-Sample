@@ -9,6 +9,5 @@
 import Foundation
 protocol viewControllerProtocol
 {
-   func setRates(arr : [Rate])
    func setdict(dic : [String : Double])
 }

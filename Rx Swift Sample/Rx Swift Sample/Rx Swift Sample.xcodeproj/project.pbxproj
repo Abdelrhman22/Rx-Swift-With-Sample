@@ -12,7 +12,6 @@
 		1E849923229D303C0013F02C /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E849922229D303C0013F02C /* Presenter.swift */; };
 		1E849927229D31670013F02C /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E849926229D31670013F02C /* Network.swift */; };
 		1E84992A229D31E50013F02C /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E849929229D31E50013F02C /* Country.swift */; };
-		1E84992C229D32500013F02C /* Rate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E84992B229D32500013F02C /* Rate.swift */; };
 		1E84992E229D32EF0013F02C /* presenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E84992D229D32EF0013F02C /* presenterProtocol.swift */; };
 		1E849930229D330C0013F02C /* networkProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E84992F229D330C0013F02C /* networkProtocol.swift */; };
 		1E849932229D36170013F02C /* viewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E849931229D36170013F02C /* viewControllerProtocol.swift */; };
@@ -32,7 +31,6 @@
 		1E849922229D303C0013F02C /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
 		1E849926229D31670013F02C /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		1E849929229D31E50013F02C /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
-		1E84992B229D32500013F02C /* Rate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rate.swift; sourceTree = "<group>"; };
 		1E84992D229D32EF0013F02C /* presenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = presenterProtocol.swift; sourceTree = "<group>"; };
 		1E84992F229D330C0013F02C /* networkProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = networkProtocol.swift; sourceTree = "<group>"; };
 		1E849931229D36170013F02C /* viewControllerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewControllerProtocol.swift; sourceTree = "<group>"; };
@@ -87,7 +85,6 @@
 			isa = PBXGroup;
 			children = (
 				1E849929229D31E50013F02C /* Country.swift */,
-				1E84992B229D32500013F02C /* Rate.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -302,7 +299,6 @@
 				1E84992A229D31E50013F02C /* Country.swift in Sources */,
 				1E616702229BE45C00D5077E /* SearchViewController.swift in Sources */,
 				1E849930229D330C0013F02C /* networkProtocol.swift in Sources */,
-				1E84992C229D32500013F02C /* Rate.swift in Sources */,
 				1E849923229D303C0013F02C /* Presenter.swift in Sources */,
 				BAA7EECE229A82C0002B6539 /* Rx_Swift_Sample.xcdatamodeld in Sources */,
 				1EE2BDCD229A8B27003190E5 /* MyCollectionViewCell.swift in Sources */,

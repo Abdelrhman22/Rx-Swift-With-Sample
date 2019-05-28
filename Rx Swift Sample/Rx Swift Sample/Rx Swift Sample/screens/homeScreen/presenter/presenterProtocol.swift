@@ -11,6 +11,5 @@ protocol presenterProtocol
 {
     func setDelegate (delegate :viewControllerProtocol)
     func getData(url : String)
-    func setRates(arr : [Rate])
     func setdict(dic : [String : Double])
 }
